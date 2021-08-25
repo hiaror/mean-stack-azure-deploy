@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 resource_group="learning-meanstack"
 vm_name="MeanStack"
 
