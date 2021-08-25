@@ -20,3 +20,8 @@ az vm open-port `
 	  --resource-group $resource_group `
 	  --name $vm_name
 
+# Output VMs Public IP
+az vm list-ip-addresses `
+	   --resource-group $resource_group `
+	   --name $vm_name
+
