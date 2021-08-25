@@ -16,7 +16,11 @@ git clone https://github.com/hiaror/mean-stack-azure-deploy.git
 ```
 3. Execute `.\deploy.azure.meanstack.sh`
 4. SSH into your VM (grab the public ip from Azure)
-5. In your VM's shell. Execute `.\configure.ubuntu.meanstack.sh`
+5. In your VM's shell. Execute 
+
+```bash
+curl https://raw.githubusercontent.com/hiaror/mean-stack-azure-deploy/main/configure.ubuntu.meanstack.sh | bash
+```
 6. From a separate browser tab, navigate to your VM's public IP address.
 7. Your application should be up and running !!!
 
