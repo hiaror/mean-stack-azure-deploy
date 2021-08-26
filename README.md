@@ -2,12 +2,12 @@
 
 ## How to setup the mean stack on azure.
 
-#### Pre-requite
+#### Pre-requisites
 
 * make sure `az cli` installed and authenticated with Azure subscription (`az login`)
 * make sure `git` is installed
 
-##### deployment steps
+##### Deployment steps
 
 1. Open `PowerShell` / `CMD` / `git bash` / `wsl`
 2. Clone the repo on your local machine. 
